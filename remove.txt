@@ -1,0 +1,7 @@
+device/xiaomi
+vendor/xiaomi
+kernel/xiaomi
+prebuilts/clang/host/linux-x86/r498229b
+hardware/xiaomi
+hardware/lineage/compat
+vendor/dolby
