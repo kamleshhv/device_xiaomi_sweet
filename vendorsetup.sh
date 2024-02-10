@@ -14,4 +14,4 @@ git clone -b leica14 https://gitlab.com/unmoved21/sweet-miuicamera.git vendor/xi
 git clone --depth=1 -b inline-rom https://github.com/fiqri19102002/android_kernel_xiaomi_sweet.git kernel/xiaomi/sm6150
 
 # Clang
-git clone --depth=1 https://gitlab.com/GhostMaster69-dev/cosmic-clang.git prebuilts/clang/host/linux-x86/cosmic-clang
+git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
