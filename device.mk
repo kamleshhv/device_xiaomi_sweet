@@ -27,6 +27,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_overlay_static.xml \
     $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml
 
+#Basic Call Recorder
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     libpiex_shim
@@ -106,3 +109,12 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
+
+#priv-app
+PRODUCT_PACKAGES += \
+    MiuiGallery \
+    MiuiEditor \
+    ViMusic
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/privapp-permissions-oem.xml:/system/etc/permissions/privapp-permissions-oem.xml

@@ -15,3 +15,15 @@ git clone --depth=1 -b inline-rom https://github.com/fiqri19102002/android_kerne
 
 # Clang
 git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
+
+#ViMusic
+git clone https://github.com/kamleshhv/ViMusic.git prebuilts/priv-app/ViMusic
+
+#MiuiGallery
+git clone https://github.com/kamleshhv/miuigallery.git prebuilts/priv-app/MiuiGallery
+
+#MiuiEditer
+git clone https://codeberg.org/kamleshhv/miuiediter.git prebuilts/priv-app/MiuiEditor
+
+#BCR
+git clone https://github.com/Chaitanyakm/vendor_bcr vendor/bcr
