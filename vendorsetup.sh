@@ -11,7 +11,7 @@ git clone -b fourteen https://github.com/kamleshhv/vendor_xiaomi_sm6150-common.g
 git clone -b leica-holybear https://gitlab.com/unmoved21/sweet-miuicamera.git vendor/xiaomi/sweet-miuicamera
 
 # Kernel Tree
-git clone --depth=1 -b inline-rom https://github.com/fiqri19102002/android_kernel_xiaomi_sweet.git kernel/xiaomi/sm6150
+git clone --depth=1 -b zelo-13 https://github.com/kamleshhv/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
 
 # Clang
 git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
