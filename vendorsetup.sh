@@ -11,19 +11,19 @@ git clone -b fourteen https://github.com/kamleshhv/vendor_xiaomi_sm6150-common.g
 git clone -b leica-holybear https://gitlab.com/unmoved21/sweet-miuicamera.git vendor/xiaomi/sweet-miuicamera
 
 # Kernel Tree
-git clone --depth=1 -b zelo-13 https://github.com/kamleshhv/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
+git clone --depth=1 -b perf https://github.com/itsshashanksp/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
 
 # Clang
-git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
+git clone --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git prebuilts/clang/host/linux-x86/playgroundtc-clang
 
 #ViMusic
-git clone https://github.com/kamleshhv/ViMusic.git prebuilts/priv-app/ViMusic
+git clone https://github.com/kamleshhv/ViMusic.git device/xiaomi/sweet/prebuilts/priv-app/ViMusic
 
 #MiuiGallery
-git clone https://github.com/kamleshhv/miuigallery.git prebuilts/priv-app/MiuiGallery
+git clone https://github.com/kamleshhv/miuigallery.git device/xiaomi/sweet/prebuilts/priv-app/MiuiGallery
 
 #MiuiEditer
-git clone https://codeberg.org/kamleshhv/miuiediter.git prebuilts/priv-app/MiuiEditor
+git clone https://gitea.com/kamleshhv/MiuiEditor.git device/xiaomi/sweet/prebuilts/priv-app/MiuiEditor
 
 #BCR
 git clone https://github.com/Chaitanyakm/vendor_bcr vendor/bcr
