@@ -18,17 +18,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Project-Elixir Official Stuff
-IS_PHONE := true
-ELIXIR_BUILD_TYPE := OFFICIAL
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_STOCK_ACORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-BUILD_USERNAME := Krishna
-BUILD_HOSTNAME := Elixir
-
 # Device Identifier
 PRODUCT_NAME := aosp_sweet
 PRODUCT_DEVICE := sweet
