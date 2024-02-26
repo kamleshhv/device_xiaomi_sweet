@@ -109,12 +109,3 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
-
-#priv-app
-PRODUCT_PACKAGES += \
-    MiuiGallery \
-    MiuiEditor \
-    ViMusic
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/privapp-permissions-oem.xml:/system/etc/permissions/privapp-permissions-oem.xml

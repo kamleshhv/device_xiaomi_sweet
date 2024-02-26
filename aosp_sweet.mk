@@ -12,10 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common Project Matrixx stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_sweet
+PRODUCT_NAME := aosp_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
@@ -23,11 +22,19 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#Project Matrixx stuff
-MATRIXX_BUILD_TYPE := official
-MATRIXX_CHIPSET := Qualcomm-sm7150
-MATRIXX_BATTERY := 5020mah
-MATRIXX_DISPLAY := 1080x2400
-MATRIXX_MAINTAINER := kamlesh
-WITH_GMS := true
+# Rom Specific Flags
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP  := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+
+# Device Specific Flags
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_GOOGLE_RECORDER := true
+
+# FireDroid Maintainer Flags
+FIREDROID_MAINTAINER := kamlesh&jazzeblaze
+CUSTOM_BUILD_TYPE := OFFICIAL
 
