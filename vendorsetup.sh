@@ -16,14 +16,5 @@ git clone --depth=1 -b perf https://github.com/itsshashanksp/kernel_xiaomi_sm615
 # Clang
 git clone --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git prebuilts/clang/host/linux-x86/playgroundtc-clang
 
-#ViMusic
-git clone https://github.com/kamleshhv/ViMusic.git device/xiaomi/sweet/prebuilts/priv-app/ViMusic
-
-#MiuiGallery
-git clone https://github.com/kamleshhv/miuigallery.git device/xiaomi/sweet/prebuilts/priv-app/MiuiGallery
-
-#MiuiEditer
-git clone https://gitea.com/kamleshhv/MiuiEditor.git device/xiaomi/sweet/prebuilts/priv-app/MiuiEditor
-
 #BCR
 git clone https://github.com/Chaitanyakm/vendor_bcr vendor/bcr
