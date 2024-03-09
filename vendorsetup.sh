@@ -11,5 +11,5 @@ git clone -b fourteen https://github.com/kamleshhv/vendor_xiaomi_sm6150-common.g
 git clone -b leica-holybear https://gitlab.com/unmoved21/sweet-miuicamera.git vendor/xiaomi/sweet-miuicamera
 
 # Kernel Tree
-git clone --depth=1 -b perf https://github.com/itsshashanksp/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
+git clone --depth=1 https://github.com/kamleshhv/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
 
