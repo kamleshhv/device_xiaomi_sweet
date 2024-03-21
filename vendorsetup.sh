@@ -18,3 +18,6 @@ git clone --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git prebuilt
 
 #hardware/xiaomi
 git clone https://github.com/kamleshhv/android_hardware_xiaomi.git hardware/xiaomi
+
+#delete hardware/xiaomi source one
+rm -rf vendor/hardware/xiaomi
