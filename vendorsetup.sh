@@ -18,3 +18,6 @@ git clone --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git prebuilt
 
 #BCR
 git clone https://github.com/Chaitanyakm/vendor_bcr vendor/bcr
+
+#hardware/xiaomi
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-21 hardware/xiaomi
