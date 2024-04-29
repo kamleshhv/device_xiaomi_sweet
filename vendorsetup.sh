@@ -1,5 +1,5 @@
 # Common Device Tree
-git clone -b matrixx https://github.com/kamleshhv/device_xiaomi_sm6150-common.git device/xiaomi/sm6150-common
+git clone -b eve https://github.com/kamleshhv/device_xiaomi_sm6150-common.git device/xiaomi/sm6150-common
 
 # Vendor Tree
 
