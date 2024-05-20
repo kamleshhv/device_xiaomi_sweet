@@ -1,20 +1,20 @@
 # Common Device Tree
-rm -rf device/xiaomi/sm6150-common
-git clone -b UNO https://github.com/ProjectElixir-Devices/device_xiaomi_sm6150-common_sweet device/xiaomi/sm6150-common
+git clone -b blaze https://github.com/kamleshhv/device_xiaomi_sm6150-common device/xiaomi/sm6150-common
 
 # Vendor Tree
-rm -rf vendor/xiaomi
-git clone --depth=1 -b UNO https://github.com/ProjectElixir-Devices/vendor_xiaomi_sweet vendor/xiaomi/sweet
-git clone --depth=1 -b UNO https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6150-common-sweet vendor/xiaomi/sm6150-common
+git clone -b fourteen https://github.com/kamleshhv/vendor_xiaomi_sweet vendor/xiaomi/sweet
+git clone -b fourteen https://github.com/kamleshhv/vendor_xiaomi_sm6150-common vendor/xiaomi/sm6150-common
 
 # Miui Camera
-git clone --depth=1 https://github.com/pure-soul-kk/vendor_xiaomi_sweet-miuicamera vendor/xiaomi/sweet-miuicamera
+git clone -b leica-holybear https://gitlab.com/kamleshhv/sweet-miuicamera.git vendor/xiaomi/sweet-miuicamera
 
 # Xiaomi Hardware
 rm -rf hardware/xiaomi
 git clone https://github.com/ProjectElixir-Devices/hardware_xiaomi hardware/xiaomi
 
 # Kernel Tree
-rm -rf kernel/xiaomi
-git clone --depth=1 https://github.com/pure-soul-kk/kernel_xiaomi_sm6150 kernel/xiaomi/sm6150
+git clone --depth=1 -b sleepy-inline https://github.com/kamleshhv/kernel_xiaomi_sm6150 kernel/xiaomi/sm6150
 
+#clang
+rm -rf prebuilts/clang/host/linux-x86/clang-r498229b
+git clone --depth=1 https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r498229b.git prebuilts/clang/host/linux-x86/clang-r498229b
