@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/blaze_sweet.mk
-
-COMMON_LUNCH_CHOICES := \
-    blaze_sweet-user \
-    blaze_sweet-userdebug \
-    blaze_sweet-eng
