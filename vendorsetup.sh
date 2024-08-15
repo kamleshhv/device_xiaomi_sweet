@@ -2,7 +2,7 @@
 git clone https://github.com/kamleshhv/device_xiaomi_sm6150-common.git -b mat device/xiaomi/sm6150-common
 
 #vendor
-git clone https://gitlab.com/crdroidandroid/proprietary_vendor_xiaomi_sweet.git -b 14.0 vendor/xiaomi/sweet
+git clone https://github.com/kamleshhv/vendor_xiaomi_sweet.git -b mat vendor/xiaomi/sweet
 
 #vendor sm6150-common
 git clone https://github.com/crdroidandroid/proprietary_vendor_xiaomi_sm6150-common.git -b 14.0 vendor/xiaomi/sm6150-common
