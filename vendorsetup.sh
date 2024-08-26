@@ -8,7 +8,7 @@ git clone https://github.com/kamleshhv/vendor_xiaomi_sweet.git -b mat vendor/xia
 git clone https://github.com/crdroidandroid/proprietary_vendor_xiaomi_sm6150-common.git -b 14.0 vendor/xiaomi/sm6150-common
 
 #kernel
-git clone --depth=1 https://github.com/kamleshhv/kernel_xiaomi_sweet.git -b 14 kernel/xiaomi/sm6150
+git clone --depth=1 https://github.com/itsshashanksp/kernel_xiaomi_sm6150.git -b sleepy kernel/xiaomi/sm6150
 
 #miui camera
 git clone -b fourteen https://github.com/pixelos-devices/sweet-miuicamera.git vendor/xiaomi/sweet-miuicamera
