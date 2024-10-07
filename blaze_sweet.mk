@@ -12,21 +12,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-# RisingTechOSS Flags
+# blaze specific
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+WITH_GAPPS := true
+BLAZE_MAINTAINER= ADITYA&KAMLESH
 
-# GMS
-WITH_GMS := true
-TARGET_CORE_GMS := true
-
-# Maintainer
-RISING_MAINTAINER=Aarav&Ajit
-
-PRODUCT_NAME := lineage_sweet
+PRODUCT_NAME := blaze_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
