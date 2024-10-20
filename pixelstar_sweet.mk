@@ -12,15 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
-# blaze specific
+# pixelstar specific
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_LAUNCHER := true
-WITH_GAPPS := true
-BLAZE_MAINTAINER= ADITYA&KAMLESH
+PIXELSTAR_BUILD_TYPE := official
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+USE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_QUICK_TAP := true 
+TARGET_SUPPORTS_CALL_RECORDING := true
 
-PRODUCT_NAME := blaze_sweet
+PRODUCT_NAME := pixelstar_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
@@ -31,5 +33,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 BUILD_FINGERPRINT := Redmi/sweet_global/sweet:13/TKQ1.221013.002/V14.0.9.0.TKFMIXM:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="sweet_global-user 13 TKQ1.221013.002 V14.0.9.0.TKFMIXM release-keys" \
-    TARGET_PRODUCT="sweet" \
-    RISING_MAINTAINER="Aarav&Ajit"

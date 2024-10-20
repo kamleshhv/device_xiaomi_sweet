@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_sweet.mk
+    $(LOCAL_DIR)/pixelstar_sweet.mk
